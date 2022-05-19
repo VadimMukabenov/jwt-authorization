@@ -31,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![JWT-Authorization][product-screenshot]](https://github.com/VadimMukabenov/jwt-authorization)
+[JWT-Authorization](https://github.com/VadimMukabenov/jwt-authorization)
 
 This is my JWT-Authorization project inspired by [Ulbi TV](https://github.com/utimur/fullstack-jwt-auth).  
 
@@ -40,8 +40,6 @@ This is my JWT-Authorization project inspired by [Ulbi TV](https://github.com/ut
 
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 <!-- * [Next.js](https://nextjs.org/) -->
 * [PostrgreSQL](https://www.postgresql.org/)
@@ -98,10 +96,6 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -145,8 +139,6 @@ Project Link: [https://github.com/VadimMukabenov/jwt-authorization](https://gith
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
