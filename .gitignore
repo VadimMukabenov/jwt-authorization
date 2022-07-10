@@ -1,2 +1,6 @@
 node_modules
-.env
+.env*
+test
+/.vscode/
+/node_modules/
+built
