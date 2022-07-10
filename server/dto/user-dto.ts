@@ -1,8 +1,10 @@
-class UserDto {
-    id;
-    email;
+import { IUser } from "../../_types";
 
-    constructor(model) {
+class UserDto {
+    id: number;
+    email: string;
+
+    constructor(model: IUser) {
         this.id = model.id;
         this.email = model.email;
     }

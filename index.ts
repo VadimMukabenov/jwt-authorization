@@ -1,7 +1,8 @@
-require('dotenv').config()
+import * as dotenv from 'dotenv';
+dotenv.config();
 import express from 'express';
-import userRouter from './src/routes/users.routes';
-import errorHandler from './src/middlewares/error-handler.middleware';
+import userRouter from './server/routes/users.routes';
+import errorHandler from './server/middlewares/error-handler.middleware';
 import cookieParser from 'cookie-parser';
 
 const PORT = process.env.PORT || 6000;

@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 
 class MailService {
-    async sendMail(to, path) {
+    async sendMail(to: string, path: string) {
         const transport = nodemailer.createTransport({
             host: process.env.SMTP_HOST,
             port: process.env.SMTP_PORT,
@@ -23,7 +23,7 @@ class MailService {
             `,
         };
         
-        transport.sendMail(mailOptions, (error, info) => {
+        transport.sendMail(mailOptions, (error: any, info: { messageId: string; }) => {
             if (error) {
                 return console.log(error);
             }
