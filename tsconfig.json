@@ -3,7 +3,17 @@
       "outDir": "./built",
       "allowJs": true,
       "esModuleInterop": true,
-      "target": "es5"
+      "moduleResolution": "node",
+      "target": "es6"
     },
-    "include": ["./src/**/*"]
-  }
+    "include": [
+      "**/*.ts",
+      "**/*.tsx"
+    ],
+    "exclude": [
+      "node_modules",
+      "test",
+      "built"
+    ],
+    "files": ["node_modules/jest-extended/types/index.d.ts"]
+}
