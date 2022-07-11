@@ -1,6 +1,0 @@
-psql -h ec2-99-81-137-11.eu-west-1.compute.amazonaws.com -U sznmsaxoqaonep d2udd265pjqa1g
-
-password: 485957749e8a5f523635e44bb4fd5ea12daeff1a66676c139ffec54b5f00a6a4
-
-// кодировка
-\! chcp 1251
