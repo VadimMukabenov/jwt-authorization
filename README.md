@@ -41,7 +41,7 @@ This is my JWT-Authorization project inspired by [Ulbi TV](https://github.com/ut
 ### Built With
 
 <!-- * [Next.js](https://nextjs.org/) -->
-* [PostrgreSQL](https://www.postgresql.org/)
+* [PostgreSQL](https://www.postgresql.org/)
 * [Express.js](https://expressjs.com/)
 * [React.js](https://reactjs.org/)
 * [Node.js](https://nodejs.org/en/)
