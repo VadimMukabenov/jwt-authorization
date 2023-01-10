@@ -17,7 +17,7 @@ describe("test usersService function", () => {
     expect(result).toMatchObject({
         user: {
             email: input.email,
-            id: expect.toBeNumber()
+            id: expect.toBeNumber(),
         },
         tokens: {
             accessToken: expect.toBeString(),
